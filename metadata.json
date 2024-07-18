@@ -1,6 +1,6 @@
 {
   "name": "theforeman-dns",
-  "version": "10.4.0",
+  "version": "11.0.0",
   "author": "theforeman",
   "summary": "Manage the ISC BIND daemon",
   "license": "Apache-2.0",
@@ -22,7 +22,7 @@
     },
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 4.13.1 < 10.0.0"
+      "version_requirement": ">= 9.0.0 < 10.0.0"
     }
   ],
   "requirements": [
@@ -35,35 +35,26 @@
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "7",
-        "8"
-      ]
-    },
-    {
-      "operatingsystem": "CentOS",
-      "operatingsystemrelease": [
-        "7",
         "8",
         "9"
       ]
     },
     {
-      "operatingsystem": "Scientific",
+      "operatingsystem": "CentOS",
       "operatingsystemrelease": [
-        "7"
+        "9"
       ]
     },
     {
       "operatingsystem": "Fedora",
       "operatingsystemrelease": [
-        "37",
-        "38"
+        "39",
+        "40"
       ]
     },
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "10",
         "11",
         "12"
       ]
@@ -71,7 +62,6 @@
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
-        "18.04",
         "20.04",
         "22.04"
       ]
@@ -89,6 +79,13 @@
       "operatingsystem": "DragonFly",
       "operatingsystemrelease": [
         "4"
+      ]
+    },
+    {
+      "operatingsystem": "AlmaLinux",
+      "operatingsystemrelease": [
+        "8",
+        "9"
       ]
     }
   ]
